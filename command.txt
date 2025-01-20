@@ -1,0 +1,5 @@
+python -m venv .lib
+.venv\Scripts\activate.bat di anaconda
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.lib\Scripts\activate di terminal vscode
+pip install -r requirements.txt
